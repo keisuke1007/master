@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+//basic setting
+$mainColor:#0099cc;
+$hoverColor:#3399ff;
+
+#content{
+    width: 800px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 182%;
+    color: $mainColor;
+}
+
+h3{
+    font-size: 123.1%;
+    font-weight: normal;
+}
+
+table{
+    width: 800px;
+    border-bottom: 1px solid #dddddd;
+    margin: 0 auto;
+    th{
+        width: 180px;
+        padding: 10px 20px;
+        font-size: 108%;
+        background: #f6f6f6;
+        border-top: 1px solid #dddddd;
+        border-left: 1px solid #dddddd;
+        border-right: 1px solid #dddddd;
+        position: relative;
+        span{
+            display: block;
+            float: right;
+            background: #ff5f5f;
+            border-radius: 2px;
+            font-size: 77%;
+            font-weight: normal;
+            color: #ffffff;
+            padding: 2px 6px;
+        }
+    }
+    td{
+        padding: 10px 20px;
+        font-size: 108%;
+        border-top: 1px solid #dddddd;
+        border-right: 1px solid #dddddd;
+        input{
+            padding: 5px 10px;
+            margin-right: 10px;
+        }
+    }
+}
+.note{
+    font-size: 93%;
+    margin-bottom: 20px;
+}
+
+.submit{
+    text-align: center;
+    #submit_confirm{
+        font-size: 182%;
+        display: inline-block;
+        padding: 10px 60px;
+        border-radius: 4px;
+        background: #ff8d41;
+        box-shadow:0 2px 0 #d37c1f;
+        font-weight:normal;
+        text-align:center;
+        color:#ffffff;
+        border:0;
+        cursor: pointer;
+    }
+}
+
+.birthday{
+    input{
+        margin-right: 5px;
+    }
+    label{
+        margin-right: 20px;
+    }
+}
+
+.sex{
+    label{
+        margin-right: 20px;
+    }
+}
+
+.address{
+    label,select{
+        margin-bottom: 10px;
+        display: block;
+    }
+    select{
+        font-size: 123.1%;
+        option{
+            padding: 5px 10px; 
+        }
+    }
+    input{
+        margin-left: 5px;
+    }
+}
+
+.education{
+    label{
+        display: block;
+        margin-bottom: 10px;
+        select{
+            font-size: 123.1%;
+        }
+    }
+}
+
+.career{
+    input{
+        margin-right: 5px;
+    }
+    label{
+        margin-right: 20px;
+        &:nth-child(2){
+            margin-right: 0;
+        }
+    }
+    span{
+        margin: 0 20px;
+    }
+}
+
+.career_company{
+    input{
+        margin: 0 0 10px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}
+
+.capacity{
+    textarea{
+        font-size: 123.1%;
+        padding: 5px 10px;
+        border: 1px solid #dddddd;
+    }
+}

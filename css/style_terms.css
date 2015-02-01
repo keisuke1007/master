@@ -1,0 +1,15 @@
+#content {
+  width: 600px;
+  margin: 0 auto; }
+  #content h2 {
+    font-size: 153.9%;
+    margin: 0 0 20px; }
+  #content dl dt {
+    background: #fafafa;
+    border: 1px solid #dddddd;
+    padding: 6px 20px;
+    margin: 0 0 20px;
+    font-weight: bold; }
+  #content dl dd {
+    padding: 0 20px;
+    margin: 0 0 40px; }

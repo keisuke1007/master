@@ -1,0 +1,39 @@
+@charset "utf-8";
+@charset "utf-8";
+
+//basic setting
+$mainColor:#0099cc;
+$hoverColor:#3399ff;
+
+#content{
+    width:600px;
+    margin: 0 auto;
+    h2{
+        font-size: 153.9%;
+        margin: 0 0 20px;
+    }
+    table{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        tr{
+            display: block;
+            border-bottom: 1px solid #cccccc;
+            border-left: 1px solid #cccccc;
+            border-right: 1px solid #cccccc;
+            &:first-child{
+                border-top: 1px solid #cccccc;
+            }
+        }
+        th{
+            padding: 10px;
+            background: #efefef;
+            border-right: 1px solid #cccccc;
+            width: 100px;
+            vertical-align: top;
+        }
+        td{
+            padding: 10px;
+        }
+    }
+}

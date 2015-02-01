@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/*-----------------------------------------------------------------------/
+	#con_right
+/*----------------------------------------------------------------------*/
+#con_right {
+  width: 300px;
+  float: right; }
+  #con_right .top_login {
+    border: 1px solid #dddddd;
+    background: #fffbf7;
+    padding: 10px; }
+    #con_right .top_login h3 {
+      font-weight: normal;
+      color: #666666;
+      margin-bottom: 5px; }
+    #con_right .top_login label {
+      display: none; }
+    #con_right .top_login #user_mail, #con_right .top_login #user_password {
+      width: 263px;
+      padding: 5px;
+      display: block; }
+      #con_right .top_login #user_mail #user_mail, #con_right .top_login #user_password #user_mail {
+        margin-bottom: 10px; }
+    #con_right .top_login .btn_login_box {
+      text-align: center; }
+      #con_right .top_login .btn_login_box label {
+        display: block; }
+      #con_right .top_login .btn_login_box #user_auto_login_flg, #con_right .top_login .btn_login_box .f11 {
+        width: auto;
+        display: inline; }
+      #con_right .top_login .btn_login_box .usr_name {
+        font-size: 108%; }
+    #con_right .top_login .btn_mypage {
+      display: inline-block;
+      float: left;
+      margin-right: 10px; }
+      #con_right .top_login .btn_mypage a {
+        padding: 6px 50px;
+        border-radius: 4px;
+        background: #0099cc;
+        color: #ffffff;
+        display: inline-block;
+        border-bottom: 2px solid #3e6c7b; }
+        #con_right .top_login .btn_mypage a:hover {
+          opacity: 0.7; }
+    #con_right .top_login .btn_logout {
+      display: inline-block;
+      float: left; }
+      #con_right .top_login .btn_logout input {
+        display: inline-block;
+        background: #cccccc;
+        color: #ffffff;
+        padding: 6px 10px;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer; }
+        #con_right .top_login .btn_logout input:hover {
+          opacity: 0.7; }
+  #con_right .top_history {
+    border: 1px solid #dddddd;
+    background: #fafafa;
+    padding: 10px; }
+    #con_right .top_history h3 {
+      font-weight: normal;
+      color: #666666;
+      margin-bottom: 5px; }
+    #con_right .top_history li {
+      border-bottom: 1px solid #dddddd;
+      padding: 14px 0; }
+      #con_right .top_history li:first-child {
+        padding-top: 0; }
+      #con_right .top_history li img {
+        width: 118px;
+        float: left;
+        margin-right: 10px; }
+      #con_right .top_history li h4 {
+        font-size: 93%; }
+      #con_right .top_history li p {
+        color: #666666;
+        font-size: 85%; }
+      #con_right .top_history li a:hover img {
+        opacity: 0.8; }
+    #con_right .top_history .top_history_list {
+      text-align: right; }
+
+/*-----------------------------------------------------------------------/
+	#con_left
+/*----------------------------------------------------------------------*/
+#con_left {
+  padding-right: 320px; }
+  #con_left #search_box {
+    background: #fafafa;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    box-pack: left;
+    -webkit-box-pack: left;
+    -moz-box-pack: left; }
+    #con_left #search_box select {
+      border-radius: 4px;
+      border-color: #cccccc;
+      background: #ffffff;
+      color: #666666;
+      font-size: 123.1%;
+      margin-right: 5px; }
+    #con_left #search_box option {
+      padding-top: 5px; }
+    #con_left #search_box #slct_01 {
+      width: 160px; }
+    #con_left #search_box #slct_04 {
+      padding: 4px;
+      margin-right: 5px; }
+  #con_left .recommend_contents .recommend_box {
+    margin-bottom: 20px; }
+    #con_left .recommend_contents .recommend_box a {
+      display: block;
+      position: relative; }
+      #con_left .recommend_contents .recommend_box a:hover .company_info h2 {
+        color: #3399ff; }
+      #con_left .recommend_contents .recommend_box a:hover img {
+        opacity: 0.8; }
+      #con_left .recommend_contents .recommend_box a .company_img {
+        max-height: 300px;
+        overflow: hidden; }
+      #con_left .recommend_contents .recommend_box a img {
+        width: 100%;
+        height: auto;
+        display: block; }
+      #con_left .recommend_contents .recommend_box a .company_info {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.7); }
+        #con_left .recommend_contents .recommend_box a .company_info h2 {
+          color: #00bfff;
+          font-size: 153.9%;
+          font-weight: normal;
+          padding: 10px 10px 5px;
+          line-height: 1.3em; }
+        #con_left .recommend_contents .recommend_box a .company_info .company_name {
+          color: #ffffff;
+          font-size: 108%;
+          padding: 0 10px;
+          margin-bottom: 10px; }
+        #con_left .recommend_contents .recommend_box a .company_info .company_income_location {
+          color: #ffffff;
+          padding: 0 10px 10px; }
+          #con_left .recommend_contents .recommend_box a .company_info .company_income_location p {
+            display: inline-block;
+            font-size: 123.1%; }
+          #con_left .recommend_contents .recommend_box a .company_info .company_income_location .income {
+            margin-right: 20px; }
+      #con_left .recommend_contents .recommend_box a .new_offer {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        color: #ffffff;
+        background: #ff5f5f;
+        padding: 2px 6px;
+        border-radius: 4px; }
+
+@media screen and (max-width: 767px) {
+  #content {
+    padding: 10px; }
+
+  #con_right {
+    width: 100%;
+    float: none; }
+    #con_right .top_login {
+      display: none; }
+
+  #con_left {
+    width: 100%;
+    float: none;
+    padding: 0; }
+    #con_left #search_box {
+      position: relative;
+      padding-top: 40px; }
+      #con_left #search_box:after {
+        width: 200px;
+        height: 20px;
+        display: block;
+        position: absolute;
+        content: "求人を探す";
+        top: 10px;
+        left: 10px;
+        font-size: 123.1%;
+        font-weight: bold; }
+      #con_left #search_box select {
+        width: 100%;
+        margin-bottom: 10px; }
+      #con_left #search_box .ms-parent {
+        margin-bottom: 10px; }
+    #con_left .recommend_contents .recommend_box a:hover {
+      color: #ffffff; }
+      #con_left .recommend_contents .recommend_box a:hover .company_info h2 {
+        color: #ffffff; }
+    #con_left .recommend_contents .recommend_box a:active {
+      color: #ffffff; }
+    #con_left .recommend_contents .recommend_box a .company_info {
+      background: #0099cc;
+      position: relative; }
+      #con_left .recommend_contents .recommend_box a .company_info h2 {
+        color: #ffffff;
+        font-size: 108%;
+        font-weight: bold; }
+      #con_left .recommend_contents .recommend_box a .company_info .company_name {
+        font-size: 100%;
+        margin-bottom: 0px; }
+      #con_left .recommend_contents .recommend_box a .company_info .company_income_location p {
+        font-size: 100%; } }

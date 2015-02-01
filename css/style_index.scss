@@ -1,0 +1,286 @@
+@charset "utf-8";
+
+//basic setting
+$mainColor:#0099cc;
+$hoverColor:#3399ff;
+
+/*-----------------------------------------------------------------------/
+	#con_right
+/*----------------------------------------------------------------------*/
+
+#con_right{
+    width:300px;
+    float:right;
+    .top_login{
+        border:1px solid #dddddd;
+        background:#fffbf7;
+        padding:10px;
+        h3{
+            font-weight:normal;
+            color:#666666;
+            margin-bottom:5px;
+        }
+        label{
+            display:none;
+        }
+        #user_mail,#user_password{
+            width:263px;
+            padding:5px;
+            display:block;
+            #user_mail{
+                margin-bottom:10px;
+            }
+        }
+        .btn_login_box{
+            text-align:center;
+            label{display:block;}
+            #user_auto_login_flg,.f11{
+                width:auto;
+                display:inline;
+            }
+            .usr_name{
+                font-size: 108%;
+            }
+        }
+        .btn_mypage{
+            display: inline-block;
+            float: left;
+            margin-right: 10px;
+            a{
+                padding: 6px 50px;
+                border-radius: 4px;
+                background: $mainColor;
+                color: #ffffff;
+                display: inline-block;
+                border-bottom: 2px solid #3e6c7b;
+                &:hover{
+                    opacity: 0.7;
+                }
+            }
+        }
+        .btn_logout{
+            display: inline-block;
+            float: left;
+            input{
+                display: inline-block;
+                background: #cccccc;
+                color: #ffffff;
+                padding: 6px 10px;
+                border-radius: 4px;
+                border: none;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+    .top_history{
+        border:1px solid #dddddd;
+        background:#fafafa;
+        padding:10px;
+        h3{
+            font-weight:normal;
+            color:#666666;
+            margin-bottom:5px;
+        }
+        li{
+            border-bottom:1px solid #dddddd;
+            padding:14px 0;
+            &:first-child{
+                padding-top:0;
+            }
+            img{
+                width:118px;
+                float:left;
+                margin-right:10px;
+            }
+            h4{
+                font-size:93%;
+            }
+            p{
+                color:#666666;
+                font-size:85%;
+            }
+            a:hover img{opacity:0.8;}
+        }
+        .top_history_list{
+            text-align:right;
+        }
+    }
+}
+
+/*-----------------------------------------------------------------------/
+	#con_left
+/*----------------------------------------------------------------------*/
+#con_left{
+    padding-right:320px;
+    #search_box{
+        background:#fafafa;
+        border:1px solid #dddddd;
+        padding:10px;
+        display: box;
+		display: -webkit-box;
+		display: -moz-box;
+		box-pack: left;
+		-webkit-box-pack: left;
+		-moz-box-pack: left;
+        select{
+            border-radius:4px;
+            border-color:#cccccc;
+            background: #ffffff;
+            color:#666666;
+            font-size:123.1%;
+            margin-right:5px;
+        }
+        option{
+            padding-top:5px;
+        }
+        #slct_01{
+            width:160px;
+        }
+        #slct_04{
+            padding:4px;
+            margin-right:5px;
+        }
+    }
+    .recommend_contents{
+        .recommend_box{
+            margin-bottom:20px;
+            a{
+                display:block;
+                position:relative;
+                &:hover{
+                    .company_info h2{
+                        color:$hoverColor;
+                    }
+                    img{
+                        opacity: 0.8;
+                    }
+                }
+                .company_img{
+                    max-height:300px;
+                    overflow:hidden;
+                }
+                img{
+                    width:100%;
+                    height:auto;
+                    display:block;
+                }
+                .company_info{
+                    width:100%;
+                    position:absolute;
+                    bottom:0;
+                    left:0;
+                    background:rgba(0,0,0,0.7);
+                    h2{
+                        color:#00bfff;
+                        font-size:153.9%;
+                        font-weight:normal;
+                        padding:10px 10px 5px;
+                        line-height:1.3em;
+                    }
+                    .company_name{
+                        color:#ffffff;
+                        font-size:108%;
+                        padding:0 10px;
+                        margin-bottom:10px;
+                    }
+                    .company_income_location{
+                        color:#ffffff;
+                        padding:0 10px 10px;
+                        p{
+                            display:inline-block;
+                            font-size:123.1%;
+                        }
+                        .income{margin-right:20px;}
+                    }
+                }
+                .new_offer{
+                    position: absolute;
+                    top: 5px;
+                    right: 5px;
+                    color: #ffffff;
+                    background: #ff5f5f;
+                    padding: 2px 6px;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #content{
+        padding: 10px;
+    }
+    #con_right{
+        width: 100%;
+        float: none;
+        .top_login {
+            display: none;
+        }
+    }
+    #con_left{
+        width: 100%;
+        float: none;
+        padding: 0;
+        #search_box{
+            position: relative;
+            padding-top: 40px;
+            &:after{
+                width: 200px;
+                height: 20px;
+                display: block;
+                position: absolute;
+                content: "求人を探す";
+                top: 10px;
+                left: 10px;
+                font-size: 123.1%;
+                font-weight: bold;
+            }
+            select{
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            .ms-parent{
+                margin-bottom: 10px;
+            }
+        }
+        .recommend_contents{
+            .recommend_box{
+                a{
+                    &:hover{
+                        color: #ffffff;
+                        .company_info{
+                            h2{
+                                color: #ffffff;
+                            }
+                        }
+                    }
+                    &:active{
+                        color: #ffffff;
+                    }
+                    .company_info{
+                        background: $mainColor;
+                        position: relative;
+                        h2{
+                            color: #ffffff;
+                            font-size: 108%;
+                            font-weight: bold;
+                        }
+                        .company_name{
+                            font-size: 100%;
+                            margin-bottom: 0px;
+                        }
+                        .company_income_location{
+                            p{
+                                font-size: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

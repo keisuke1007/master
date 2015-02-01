@@ -1,0 +1,28 @@
+@charset "utf-8";
+@charset "utf-8";
+
+//basic setting
+$mainColor:#0099cc;
+$hoverColor:#3399ff;
+
+#content{
+    width:600px;
+    margin: 0 auto;
+    h2{
+        font-size: 153.9%;
+        margin: 0 0 20px;
+    }
+    dl{
+        dt{
+            background: #fafafa;
+            border: 1px solid #dddddd;
+            padding: 6px 20px;
+            margin: 0 0 20px;
+            font-weight: bold;
+        }
+        dd{
+            padding: 0 20px;
+            margin: 0 0 40px;
+        }
+    }
+}

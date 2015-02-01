@@ -1,0 +1,157 @@
+/*-----------------------------------------------------------------------/
+	.search_criteria
+/*----------------------------------------------------------------------*/
+.search_criteria {
+  border-bottom: 1px solid #dddddd;
+  padding: 6px 20px 8px;
+  position: relative; }
+  .search_criteria .search_criteria_list {
+    display: inline-block;
+    float: left;
+    margin-top: 8px; }
+  .search_criteria dl, .search_criteria dt, .search_criteria dd {
+    font-size: 108%;
+    display: inline-block; }
+  .search_criteria dl {
+    margin-right: 20px; }
+    .search_criteria dl.area dd {
+      margin-right: 10px; }
+      .search_criteria dl.area dd:last-child {
+        margin-right: 0; }
+  .search_criteria dd span {
+    margin-right: 10px; }
+  .search_criteria .search_criteria_btn {
+    float: right;
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 4px;
+    background: #ffb769;
+    box-shadow: 0 2px 0 #d37c1f;
+    font-weight: normal;
+    text-align: center;
+    font-size: 123.1%;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer; }
+    .search_criteria .search_criteria_btn .ic_search {
+      background: url(/images/cmn/ic_search.png) 0 0 no-repeat;
+      padding: 1px 0 1px 28px; }
+  .search_criteria #search_box {
+    clear: both;
+    background: #fafafa;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 6px;
+    box-shadow: 0 2px 4px #dddde3;
+    visibility: hidden; }
+    .search_criteria #search_box select {
+      border-radius: 4px;
+      border-color: #cccccc;
+      background: #ffffff;
+      color: #666666;
+      font-size: 123.1%;
+      margin-right: 5px; }
+    .search_criteria #search_box option {
+      padding-top: 5px; }
+    .search_criteria #search_box #slct_01 {
+      width: 160px; }
+    .search_criteria #search_box #slct_04 {
+      padding: 4px;
+      margin-right: 5px; }
+    .search_criteria #search_box .close_btn {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      padding: 0 4px;
+      background: #ff5f5f;
+      color: #ffffff;
+      border-radius: 10px;
+      cursor: pointer; }
+
+.search_count {
+  margin: 10px 20px 0; }
+  .search_count span {
+    margin: 0 5px 0 10px;
+    font-size: 138.5%;
+    color: #d37c1f; }
+
+/*-----------------------------------------------------------------------/
+	.search_result_box
+/*----------------------------------------------------------------------*/
+.search_result_box {
+  margin-bottom: 20px; }
+  .search_result_box h2 a {
+    color: #ffffff;
+    font-size: 138.5%;
+    display: block;
+    background: #0099cc;
+    padding: 10px;
+    font-weight: normal;
+    line-height: 1.6; }
+    .search_result_box h2 a:hover {
+      opacity: 0.7; }
+  .search_result_box .company_info {
+    border-left: 1px solid #0099cc;
+    border-right: 1px solid #0099cc;
+    border-bottom: 1px solid #0099cc;
+    padding: 10px 0 0; }
+    .search_result_box .company_info .company_name {
+      margin: 0 20px 5px; }
+    .search_result_box .company_info .company_outline {
+      border-bottom: 4px solid #f6f6f6;
+      padding: 0 0 5px;
+      margin: 0 20px 20px; }
+      .search_result_box .company_info .company_outline dl, .search_result_box .company_info .company_outline dt, .search_result_box .company_info .company_outline dd {
+        display: inline-block;
+        font-size: 93%; }
+      .search_result_box .company_info .company_outline dl {
+        margin: 0 10px 0 0; }
+      .search_result_box .company_info .company_outline dl.description {
+        display: block; }
+      .search_result_box .company_info .company_outline dt {
+        color: #e1ae78; }
+    .search_result_box .company_info .job_offer .clearfix {
+      border-bottom: 1px solid #f6f6f6;
+      padding-bottom: 15px;
+      margin: 0 20px 10px; }
+    .search_result_box .company_info .job_offer .img_job {
+      width: 400px;
+      float: left;
+      margin: 0 20px 0 0; }
+      .search_result_box .company_info .job_offer .img_job:hover {
+        opacity: 0.7; }
+      .search_result_box .company_info .job_offer .img_job img {
+        display: block; }
+    .search_result_box .company_info .job_offer h3 {
+      font-size: 116%;
+      line-height: 1.8; }
+    .search_result_box .company_info .job_offer p {
+      line-height: 1.8; }
+    .search_result_box .company_info .job_offer .hiring_requirements {
+      margin: 0 20px 10px; }
+      .search_result_box .company_info .job_offer .hiring_requirements table th, .search_result_box .company_info .job_offer .hiring_requirements table td {
+        font-size: 93%;
+        vertical-align: top; }
+      .search_result_box .company_info .job_offer .hiring_requirements table th {
+        font-weight: normal;
+        color: #e1ae78;
+        padding-right: 20px;
+        min-width: 50px; }
+    .search_result_box .company_info .job_offer .job_offer_detail_btn {
+      background: #f6f6f6;
+      text-align: center;
+      padding: 26px 0; }
+      .search_result_box .company_info .job_offer .job_offer_detail_btn a {
+        background: #ff8d41;
+        padding: 12px 40px;
+        border-radius: 4px;
+        box-shadow: 0 2px 0 #d37c1f;
+        font-weight: normal;
+        text-align: center;
+        font-size: 138.5%;
+        color: #ffffff; }
+        .search_result_box .company_info .job_offer .job_offer_detail_btn a:hover {
+          opacity: 0.7; }
